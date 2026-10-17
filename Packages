@@ -1,0 +1,22 @@
+Package: odid-sniffer
+Architecture: all
+Version: 4.1.8-1
+Priority: optional
+Section: net
+Maintainer: Zedidence <zdaly@shadowtechlabs.com>
+Installed-Size: 1728
+Depends: python3 (>= 3.11), python3-scapy (>= 2.5), python3-aiohttp (>= 3.9), python3-typer (>= 0.12), python3-click (>= 8.1), python3-rich (>= 13), python3-colorama, python3-zmq, iw, iproute2, adduser, polkitd, openssl
+Recommends: python3-bleak (>= 0.21), bluez, gnuradio, gr-osmosdr, bladerf, python3-numpy
+Suggests: tailscale
+Filename: ./odid-sniffer_4.1.8-1_all.deb
+Size: 231844
+MD5sum: ccefc4c911a95d16ef3a985fc00dea7c
+SHA1: ed138fbd66648f7b86eedd3e32ff7662f21d3f86
+SHA256: 94336ae7f1cffa5d1cfe4d63d349f3973af7b3dc977ef27f73f333796c73dd69
+SHA512: 3c8239ed56229fb174890b93fcd04d8257391f07ec95197e221d3f1c237513d8c64f591222c88f56507bc069f1137f8b7ddaab96962ff4460ba65f2ba0eab766
+Homepage: https://github.com/opendroneid
+Description: OpenDroneID (Remote ID) sniffer for Raspberry Pi sensor
+ Receives ASTM F3411 / ASD-STAN Remote ID broadcasts over WiFi (monitor-mode
+ dongle or BladeRF SDR) and Bluetooth LE, decodes and tracks drones, and
+ serves a live map with remote source control (odid.service).
+
